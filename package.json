@@ -10,7 +10,22 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "typescript": "3.5.3"
+    "typescript": "3.5.3",
+    "react-hot-loader": "4.8.0",
+    "react-redux": "6.0.1",
+    "react-router-dom": "5.0.0",
+    "react-toastify": "4.5.2",
+    "reactstrap": "7.1.0",
+    "redux": "4.0.1",
+    "redux-promise-middleware": "6.1.0",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "tslint": "5.14.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-loader": "3.6.0",
+    "tslint-react": "3.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
