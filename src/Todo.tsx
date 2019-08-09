@@ -1,15 +1,20 @@
-﻿import React from 'react'
+﻿import React, { MouseEventHandler } from 'react';
 
-interface Props {
-
+interface ITodoProps {
+  onClick: MouseEventHandler<any>;
+  completed: boolean | null | undefined;
+  text: string | null | undefined;
 }
 
-export const Todo: React.FC<Props> = () => {
-  return (
-    <div>
-    </div>
-  )
-}
+const Todo: React.FC<ITodoProps> = ({ onClick, completed, text }) => (
+  <li
+    onClick={onClick}
+    style={{
+      textDecoration: completed ? 'line-through' : 'none'
+    }}
+  >
+    {text}
+  </li>
+);
 
-auto rename tag
-auto close tag
+export default Todo;
