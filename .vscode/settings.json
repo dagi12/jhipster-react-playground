@@ -12,5 +12,6 @@
     "source.organizeImports": true
   },
   "editor.formatOnSave": true,
-  "prettier.tslintIntegration": true
+  "prettier.tslintIntegration": true,
+  "git.autofetch": true
 }

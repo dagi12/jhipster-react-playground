@@ -8,7 +8,7 @@ interface ITodoListProps {
 }
 
 const TodoList: React.FC<ITodoListProps> = ({ todos, onTodoClick }) => {
-  const onClick = (index: number) => onTodoClick(index);
+  const onClick = (index: number) => () => onTodoClick(index);
   return (
     <ul>
       {todos.map((todo, index) => (
