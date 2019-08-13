@@ -2,6 +2,10 @@
 
 ### TODO
 - ajdust file structure x
-- adjust webpack
+- adjust webpack x
 - make app.tsx
 - make auth
+ 
+ ### TODO flota-ng-client
+ - wywal sass
+ - file rename (PascalCase)

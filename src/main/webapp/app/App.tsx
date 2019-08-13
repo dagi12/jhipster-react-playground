@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Footer from './Footer';
-import VisibleTodoList from './VisibleTodoList';
-import AddTodo from './AddTodo';
+import Footer from './modules/Footer';
+import VisibleTodoList from './modules/VisibleTodoList';
+import AddTodo from './modules/AddTodo';
 
 const App: React.FC = () => (
   <div className="App">

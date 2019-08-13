@@ -1,6 +1,6 @@
 ﻿import React, { MouseEventHandler } from 'react';
-import { ITodo } from './actions';
 import Todo from './Todo';
+import {ITodo} from './modules/actions';
 
 interface ITodoListProps {
   todos: ITodo[];
